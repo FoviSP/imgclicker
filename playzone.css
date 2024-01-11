@@ -1,0 +1,47 @@
+.butstart{
+	font-size: 42pt;
+	height: 100px;
+	width: 300px;
+	background-color: rgba(10, 200, 0, 0.5);
+}
+.butstart:hover{
+	background-color: rgba(10, 200, 0, 1);
+}
+#playzone{
+	position: absolute;
+	z-index: 4;
+}
+#wrapper-timer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0.9);
+	z-index: 2;
+}
+#timer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 521pt;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+#menu{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 5;
+}
